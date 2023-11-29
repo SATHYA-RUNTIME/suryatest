@@ -1,0 +1,66 @@
+<html>
+<style>
+body{
+margin:0;
+padding:0;
+background-image:url(p999.jpg);
+background-size:cover;
+}
+#all{
+top:50%;
+left:50%;
+padding:30px 40px 30px 20px;
+transform:translate(-50%,-30%);
+background:black;
+position:absolute;
+padding:70px;
+border-radius:40px;
+background:rgba(0,0,0,0.7);
+}
+#name{
+border:none;
+background:transparent;
+color:white;
+border-bottom:1px solid white;
+padding:6px;
+font-size:100%;
+border-top:10px;
+margin-bottom:15px;
+}
+#forget{
+padding-left:44px;
+color:blue;
+}
+#button{
+margin-left:60px;
+padding:10px 17px;
+margin-top:30px;
+font-size:86%;
+border-radius:20px;
+border:none;
+color:white;
+background:blue;
+}
+#button:hover{
+font-size:15px;
+background:white;
+color:blue;
+cursor:pointer;
+}
+#user{
+position:absolute;
+right:125px;
+top:-49px;
+border-radius:50%;
+}
+</style>
+<body>
+<div id="all">
+<img src="user.png"  height="80" width="80" id="user">
+<input type="text" placeholder="username" id="name"><br>
+<input type="password" placeholder="password" id="name"><br>
+<a href="#" id="forget">forget password..</a><br>
+<input type="button" value="login" id="button">
+</div>
+</body>
+</html>
